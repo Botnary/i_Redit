@@ -22,4 +22,8 @@
     // Update the view, if already loaded.
 }
 
+-(IBAction)onClick:(id)sender{
+
+};
+
 @end

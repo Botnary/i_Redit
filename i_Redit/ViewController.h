@@ -10,6 +10,8 @@
 
 @interface ViewController : NSViewController
 
+-(IBAction)onClick:(id)sender;
+
 
 @end
 
