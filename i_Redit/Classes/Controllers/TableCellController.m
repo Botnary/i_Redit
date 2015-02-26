@@ -25,15 +25,13 @@
     }
     [cover setImage:image];
     [lable setStringValue:self.headline];
-    NSLog(@"Gets called ctrl init %@ %@",self.headline, self.imageUrl);
 }
 
 -(id)initWithText:(NSString *) text andImageUrl:(NSURL *)url{
     if ( self = [super init] )
     {
         [self setHeadline:text];
-        [self setImageUrl:url];
-        NSLog(@"Gets called ctrl init %@ %@",lable, lable.stringValue);
+        [self setImageUrl:url];        
     }
     return self;
 }

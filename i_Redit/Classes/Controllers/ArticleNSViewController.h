@@ -9,11 +9,15 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 
-@interface ArticleNSViewController : NSViewController <NSTableViewDataSource, NSTableViewDelegate>{
 
+@interface ArticleNSViewController : NSViewController <NSTableViewDataSource, NSTableViewDelegate>{
+    
 }
 @property (nonatomic, retain) NSMutableArray *articles;
 @property (nonatomic, retain) IBOutlet WebView *webView;
 @property (nonatomic, retain) IBOutlet NSTableView *articleTableView;
 @property (nonatomic, retain) IBOutlet NSScrollView *articleScrolleView;
+-(IBAction)onAuthButonClicked:(NSButton *)sender;
+-(void)authorisationWith:(NSString *)code;
+-(void)onSubRedditSelected:(NSNotification*)note;
 @end
