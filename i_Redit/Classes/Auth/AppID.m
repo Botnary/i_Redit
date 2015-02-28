@@ -8,4 +8,4 @@
 
 #import "AppID.h"
 
-NSString *const RedditApp = @"sCn233gDaZPyAg";
+NSString *const REDDIT_APP = @"sCn233gDaZPyAg";

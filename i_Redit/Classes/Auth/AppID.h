@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXPORT NSString *const RedditApp;
+FOUNDATION_EXPORT NSString *const REDDIT_APP;
